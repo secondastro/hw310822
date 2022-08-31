@@ -47,11 +47,14 @@ public class Main {
     public static void task4() {
         int deliveryDistance = 95;
         int days=0;
-        if (deliveryDistance <=20) {
+        int dist1 = 20;
+        int dist2 = 60;
+        int dist3 = 100;
+        if (deliveryDistance <=dist1) {
             days = 1;
-        } else if (deliveryDistance<=60) {
+        } else if (deliveryDistance<=dist2) {
             days = 2;
-        } else if (deliveryDistance<=100) {
+        } else if (deliveryDistance<=dist3) {
             days = 3;
         }
         System.out.println("Потребуется дней: " + days);
